@@ -45,3 +45,4 @@ def test_parametrize_mobile_skip(browser_desktop_and_mobile_skip):
     else:
         browser.open(base_url)
         browser.element(desktop_locator).should(be.visible).click()
+
